@@ -1,0 +1,74 @@
+/* Role-based Theme Variables */
+
+:root {
+  /* Default (Patient) */
+  --primary: #0ea5e9;
+  --primary-hover: #0284c7;
+  --primary-soft: #eff6ff;
+  --primary-text: #ffffff;
+  --surface: #ffffff;
+  --sidebar-gradient-from: #0d9488;
+  --sidebar-gradient-to: #0f766e;
+  --chart-line: #0ea5e9;
+  --chart-bg: rgba(14, 165, 233, 0.1);
+}
+
+[data-role="admin"] {
+  --primary: #b91c1c;
+  --primary-hover: #991b1b;
+  --primary-soft: #fef2f2;
+  --primary-text: #ffffff;
+  --surface: #ffffff;
+  --sidebar-gradient-from: #494e55;
+  --sidebar-gradient-to: #b91c1c;
+  --chart-line: #b91c1c;
+  --chart-bg: rgba(185, 28, 28, 0.1);
+}
+
+[data-role="pharmacy"] {
+  --primary: #6d28d9;
+  --primary-hover: #5b21b6;
+  --primary-soft: #f5f3ff;
+  --primary-text: #ffffff;
+  --surface: #ffffff;
+  --sidebar-gradient-from: #7c3aed;
+  --sidebar-gradient-to: #5b21b6;
+  --chart-line: #6d28d9;
+  --chart-bg: rgba(109, 40, 217, 0.1);
+}
+
+[data-role="doctor"] {
+  --primary: #059669;
+  --primary-hover: #047857;
+  --primary-soft: #ecfdf5;
+  --primary-text: #ffffff;
+  --surface: #ffffff;
+  --sidebar-gradient-from: #059669; /* Fixed: green instead of blue */
+  --sidebar-gradient-to: #047857;
+  --chart-line: #059669;
+  --chart-bg: rgba(5, 150, 105, 0.1);
+}
+
+[data-role="nurse"] {
+  --primary: #db2777;
+  --primary-hover: #be185d;
+  --primary-soft: #fdf2f8;
+  --primary-text: #ffffff;
+  --surface: #ffffff;
+  --sidebar-gradient-from: #db2777;
+  --sidebar-gradient-to: #be185d;
+  --chart-line: #db2777;
+  --chart-bg: rgba(219, 39, 119, 0.1);
+}
+
+[data-role="patient"] {
+  --primary: #0ea5e9; /* Bluish primary */
+  --primary-hover: #0284c7;
+  --primary-soft: #eff6ff;
+  --primary-text: #ffffff;
+  --surface: #ffffff;
+  --sidebar-gradient-from: #0284c7; /* Bluish sidebar */
+  --sidebar-gradient-to: #0369a1;
+  --chart-line: #0ea5e9;
+  --chart-bg: rgba(14, 165, 233, 0.1);
+}
